@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 50px 0 ;
+    border-bottom: solid black 1px;
+}
+
+header >* {
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin: 20px 0;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 20px
+}
+#Right > * {
+    padding-left: 40px;
+
+}
+
+#Right {
+    border-left: 1px solid black;
+}
+
